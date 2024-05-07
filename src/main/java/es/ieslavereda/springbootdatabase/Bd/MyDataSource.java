@@ -11,9 +11,9 @@ public class MyDataSource {
     @Bean(name = "oracleDataSource")
     public static DataSource getOracleDataSorce() throws SQLException {
         OracleDataSource dataSource = new OracleDataSource();
-        dataSource.setUser("C##JOAQUIN");
-        dataSource.setPassword("12345678");
-        dataSource.setURL("jdbc:oracle:thin:@//10.0.0.21:1521/xe");
+        dataSource.setUser("C##_1DAWDEVIS");
+        dataSource.setPassword("1234");
+        dataSource.setURL("jdbc:oracle:thin:@//172.28.201.239/xe");
         return dataSource;
     }
     @Bean(name = "mysqlDataSource")
